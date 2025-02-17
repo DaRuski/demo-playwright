@@ -1,0 +1,22 @@
+{
+    "name": "playwright-test-suite",
+    "version": "1.0.0",
+    "description": "A Playwright-driven test suite for a demo Asana app using TypeScript and data-driven testing.",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "report": "allure generate allure-results --clean && allure open allure-report"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.50.1",
+        "allure-playwright": "^3.1.0",
+        "typescript": "^5.7.3"
+    },
+    "type": "module",
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
